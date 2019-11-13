@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Webtop Chrome Extension",
+    "description": "This extension will give you access to Webtop on your fingertips",
+    "version": "1.0.0.0",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "chrome_url_overrides" : {
+        "newtab": "tab.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+  }
